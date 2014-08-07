@@ -18,6 +18,6 @@ describe("the greeting service", function () {
 
     it("must use fallback if no name given", function(){
     	var greet = greetingService.greet();
-    	expect(greet).toBe("This test will be failing");
+    	expect(greet).toBe("Hello, anonymous");
     });
 });

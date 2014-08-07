@@ -3,3 +3,12 @@ pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.next
 release.properties
+
+## Directory-based project format
+.idea/
+out/
+
+## File-based project format
+*.ipr
+*.iml
+*.iws

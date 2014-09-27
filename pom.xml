@@ -39,8 +39,9 @@
                 <configuration>
                     <jsSrcDir>src/main/webapp/js/app</jsSrcDir>
                     <jsTestSrcDir>src/test/webapp/js/specs</jsTestSrcDir>
+                    <specRunnerTemplate>REQUIRE_JS</specRunnerTemplate>
                     <preloadSources>
-                        <source>src/main/webapp/js/app/GreetingService.js</source>
+                        <source>src/main/webapp/js/require.js</source>
                     </preloadSources>
                     <webDriverClassName>org.openqa.selenium.phantomjs.PhantomJSDriver</webDriverClassName>
                     <webDriverCapabilities>

@@ -1,0 +1,12 @@
+<!-- Simple template to loop the players array passed to the Rivets.js binder -->
+<ul id="playersList">
+    <li rv-each-player="players">
+        <dl>
+            <dt>Name:</dt><dd>{ player.name }</dd>
+            <dt>Surname:</dt><dd>{ player.surname }</dd>
+            <dt>Shirt Number:</dt><dd>{ player.number }</dd>
+            <!-- This element will be rendered only if this property will be set -->
+            <dd rv-if="player.captain"><b> Captain! </b></dd>
+        </dl>
+    </li>
+</ul>
